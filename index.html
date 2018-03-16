@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<link rel='icon' href='pic.ico ' type='image/x-ico' />
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Ipasspay</title>
+    <link rel="stylesheet" href="UIkit/css/uikit.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="UIkit/js/uikit.min.js"></script>
+</head>
+
+<body>
+<div class="uk-width-medium-2-3 uk-row-first">
+    <img class="uk-margin-bottom" src="image/logo_mini.png">
+    <form  class="uk-panel uk-panel-box uk-form" action="pay_submit.php" method="post">
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">报送类型:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="submissionType" class="uk-width-1-1" name="submissionType" value="01">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付币种:</label>
+            <div class="uk-form-controls">
+                <select  class="uk-width-1-1" name="currencyType">
+                    <option value="RMB">RMB</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付金额:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="amount" class="uk-width-1-1" name="amount" value="0.05">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">商品备注:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="remark" class="uk-width-1-1" name="remark" value="测试商品">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付货款:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="goodsAmount" class="uk-width-1-1" name="goodsAmount" value="0.01">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付货款货币代码:</label>
+            <div class="uk-form-controls">
+                <select  class="uk-width-1-1" name="goodsAmountCurr">
+                    <option value="RMB">RMB</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付税款:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="taxAmount" class="uk-width-1-1" name="taxAmount" value="0.01">
+            </div>
+        </div>
+
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付税款货币代码:</label>
+            <div class="uk-form-controls">
+                <select  class="uk-width-1-1" name="taxAmountCurr">
+                    <option value="RMB">RMB</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付运费:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="freight" class="uk-width-1-1" name="freight" value="0.01">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">支付运费货币代码:</label>
+            <div class="uk-form-controls">
+                <select  class="uk-width-1-1" name="freightCurr">
+                    <option value="RMB">RMB</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">银行账号:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="bankAccount" class="uk-width-1-1" name="bankAccount" value="6223236500025445">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">银行账号类型:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="bankAccType" class="uk-width-1-1" name="bankAccType" value="00">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">用户ID或会员ID:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="userId" class="uk-width-1-1" name="userId" value="36090">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">用户姓名:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="userName" class="uk-width-1-1" name="userName" value="测试">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">用户证件类型:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="userCertType" class="uk-width-1-1" name="userCertType" value="00">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">用户证件号码:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="userCertNo" class="uk-width-1-1" name="userCertNo" value="413029197210284229">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <label class="uk-form-label">用户手机号码:</label>
+            <div class="uk-form-controls">
+                <input type="text" placeholder="userMobile" class="uk-width-1-1" name="userMobile" value="15089654256">
+            </div>
+        </div>
+
+        <div class="uk-form-row">
+            <div class="uk-form-controls">
+                <button class="uk-button uk-button-primary">Submit</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+</body>
+
+</html>

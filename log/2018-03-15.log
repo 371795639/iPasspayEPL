@@ -1,0 +1,54 @@
+[2018-03-15 10:13:22][info] ====进入支付====
+
+[2018-03-15 10:13:22][info] 测试商品
+
+[2018-03-15 10:13:22][info] 1.52108000228E+12
+
+[2018-03-15 10:13:22][info] suLK1MnMxrc=
+
+[2018-03-15 10:13:22][info] suLK1MnMxrc=
+
+[2018-03-15 10:13:22][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://172.20.16.194:8081/paycenter_sdk/response/notify_pay_response.php&out_trade_no=1.52108000228E+12&partner=130&return_url=http://172.20.16.194:8081/paycenter_sdk/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-15 10:13:22][info] 生成签名字符串：iT8KwKNz1qjTqJm6PHkms4BfVBZrggBhS2HLlBDUKRrIORrb2zxdSjM+CDDKJZCQY74tKkVTUJMZkZfh2lP3RsjAUWcSa0mHrVcLMoam+5GL6ZCN9JPekYR39nt0zTNiOBdX7IkVznteWBDtWqKVkXftbF0vqy0qPdME/uj6WlFf4O0wpA94YEdlT53q7ug3h3tZyKdquiBoiqbtlTLlve194Ga9qWWoOT72mVUhcD7QVE+vKsGiZB1bK2mlSy3/AeKlfBpCZkvtL4x/HwIPTMbN59kusKEaq8OW174W0pQz2HtqYcz1POhC/hzGrB+1Kcaa9jJDfzEyo/6I9euu6Q==
+
+[2018-03-15 10:13:22][info] 签名字符串为：iT8KwKNz1qjTqJm6PHkms4BfVBZrggBhS2HLlBDUKRrIORrb2zxdSjM+CDDKJZCQY74tKkVTUJMZkZfh2lP3RsjAUWcSa0mHrVcLMoam+5GL6ZCN9JPekYR39nt0zTNiOBdX7IkVznteWBDtWqKVkXftbF0vqy0qPdME/uj6WlFf4O0wpA94YEdlT53q7ug3h3tZyKdquiBoiqbtlTLlve194Ga9qWWoOT72mVUhcD7QVE+vKsGiZB1bK2mlSy3/AeKlfBpCZkvtL4x/HwIPTMbN59kusKEaq8OW174W0pQz2HtqYcz1POhC/hzGrB+1Kcaa9jJDfzEyo/6I9euu6Q==
+
+[2018-03-15 10:13:22][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fnotify_pay_response.php&out_trade_no=1.52108000228E%2B12&partner=130&return_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=iT8KwKNz1qjTqJm6PHkms4BfVBZrggBhS2HLlBDUKRrIORrb2zxdSjM%2BCDDKJZCQY74tKkVTUJMZkZfh2lP3RsjAUWcSa0mHrVcLMoam%2B5GL6ZCN9JPekYR39nt0zTNiOBdX7IkVznteWBDtWqKVkXftbF0vqy0qPdME%2Fuj6WlFf4O0wpA94YEdlT53q7ug3h3tZyKdquiBoiqbtlTLlve194Ga9qWWoOT72mVUhcD7QVE%2BvKsGiZB1bK2mlSy3%2FAeKlfBpCZkvtL4x%2FHwIPTMbN59kusKEaq8OW174W0pQz2HtqYcz1POhC%2FhzGrB%2B1Kcaa9jJDfzEyo%2F6I9euu6Q%3D%3D
+
+[2018-03-15 10:20:27][info] ====进入支付====
+
+[2018-03-15 10:20:27][info] 测试商品
+
+[2018-03-15 10:20:27][info] 2018031527038
+
+[2018-03-15 10:20:27][info] suLK1MnMxrc=
+
+[2018-03-15 10:20:27][info] suLK1MnMxrc=
+
+[2018-03-15 10:20:27][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://172.20.16.194:8081/paycenter_sdk/response/notify_pay_response.php&out_trade_no=2018031527038&partner=130&return_url=http://172.20.16.194:8081/paycenter_sdk/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-15 10:20:27][info] 生成签名字符串：gK+z71rOxCXCRdwBjocGKFIZY1MMrQNtVHm+3DxAC5ULekXjZ5EJ4owOUR0nPirK6dQ1UwgWSdt/VmSxGYbqOYS9DpiJMVuOI7ASw152wHc1EoKGf7KMgtDhxMXsFQl5vmqKqWGgh2IvqXre1suRrabRbVqWOOd8JZweyXxpEvOSucReNk/4DWhfrEdy4bEO1d1GFlw3gMPWjaKkKMsrNaX2/V3Xr1Lni+rHGQmnJnJiRSump9mcYttvlc5CDDy4ix2yECCCzcGAOaVaAmteqbPSYxNouOwWatyFb8pSP2YPyMBB+TWTFHaKEHxKJwEB+ne4qEqrmkLInphdkJkepg==
+
+[2018-03-15 10:20:27][info] 签名字符串为：gK+z71rOxCXCRdwBjocGKFIZY1MMrQNtVHm+3DxAC5ULekXjZ5EJ4owOUR0nPirK6dQ1UwgWSdt/VmSxGYbqOYS9DpiJMVuOI7ASw152wHc1EoKGf7KMgtDhxMXsFQl5vmqKqWGgh2IvqXre1suRrabRbVqWOOd8JZweyXxpEvOSucReNk/4DWhfrEdy4bEO1d1GFlw3gMPWjaKkKMsrNaX2/V3Xr1Lni+rHGQmnJnJiRSump9mcYttvlc5CDDy4ix2yECCCzcGAOaVaAmteqbPSYxNouOwWatyFb8pSP2YPyMBB+TWTFHaKEHxKJwEB+ne4qEqrmkLInphdkJkepg==
+
+[2018-03-15 10:20:27][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031527038&partner=130&return_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=gK%2Bz71rOxCXCRdwBjocGKFIZY1MMrQNtVHm%2B3DxAC5ULekXjZ5EJ4owOUR0nPirK6dQ1UwgWSdt%2FVmSxGYbqOYS9DpiJMVuOI7ASw152wHc1EoKGf7KMgtDhxMXsFQl5vmqKqWGgh2IvqXre1suRrabRbVqWOOd8JZweyXxpEvOSucReNk%2F4DWhfrEdy4bEO1d1GFlw3gMPWjaKkKMsrNaX2%2FV3Xr1Lni%2BrHGQmnJnJiRSump9mcYttvlc5CDDy4ix2yECCCzcGAOaVaAmteqbPSYxNouOwWatyFb8pSP2YPyMBB%2BTWTFHaKEHxKJwEB%2Bne4qEqrmkLInphdkJkepg%3D%3D
+
+[2018-03-15 11:05:28][info] ====进入支付====
+
+[2018-03-15 11:05:28][info] 测试商品
+
+[2018-03-15 11:05:28][info] 2018031578881
+
+[2018-03-15 11:05:28][info] suLK1MnMxrc=
+
+[2018-03-15 11:05:28][info] suLK1MnMxrc=
+
+[2018-03-15 11:05:28][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://172.20.16.194:8081/paycenter_sdk/response/notify_pay_response.php&out_trade_no=2018031578881&partner=130&return_url=http://172.20.16.194:8081/paycenter_sdk/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-15 11:05:28][info] 生成签名字符串：sZFi44Layl7Opwhs8r5WRdmppo4ZbmeNtNm163WYCqEMjgtEwV0fZP3gmqhmIuYZ8VAUegleDXxosGfYUCu30r/s0P0MQpTJiPlBXoqjGLEZ0sOTKfhiTSkZUgphTieY/xkefoqYo+PPtR9FEDvkJALNIQDTeh+Q9nAeC7ExOY7PkZyEDsLNzfipcwWn4+EIxha18+Up8LTV7NkYMY45FdXflxx5oAtjLEI/IKWrILZOwhvjCAF7+WGTeI8daeH2g6tf2DDz7ZxqK9/kuBc2idFwxvtYFoZ9L/9MSg1GyXfSyoRYSQOEzmCWJDB2kBUrc6ZxuVO7/nUDIDrDl6FBpA==
+
+[2018-03-15 11:05:28][info] 签名字符串为：sZFi44Layl7Opwhs8r5WRdmppo4ZbmeNtNm163WYCqEMjgtEwV0fZP3gmqhmIuYZ8VAUegleDXxosGfYUCu30r/s0P0MQpTJiPlBXoqjGLEZ0sOTKfhiTSkZUgphTieY/xkefoqYo+PPtR9FEDvkJALNIQDTeh+Q9nAeC7ExOY7PkZyEDsLNzfipcwWn4+EIxha18+Up8LTV7NkYMY45FdXflxx5oAtjLEI/IKWrILZOwhvjCAF7+WGTeI8daeH2g6tf2DDz7ZxqK9/kuBc2idFwxvtYFoZ9L/9MSg1GyXfSyoRYSQOEzmCWJDB2kBUrc6ZxuVO7/nUDIDrDl6FBpA==
+
+[2018-03-15 11:05:28][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031578881&partner=130&return_url=http%3A%2F%2F172.20.16.194%3A8081%2Fpaycenter_sdk%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=sZFi44Layl7Opwhs8r5WRdmppo4ZbmeNtNm163WYCqEMjgtEwV0fZP3gmqhmIuYZ8VAUegleDXxosGfYUCu30r%2Fs0P0MQpTJiPlBXoqjGLEZ0sOTKfhiTSkZUgphTieY%2FxkefoqYo%2BPPtR9FEDvkJALNIQDTeh%2BQ9nAeC7ExOY7PkZyEDsLNzfipcwWn4%2BEIxha18%2BUp8LTV7NkYMY45FdXflxx5oAtjLEI%2FIKWrILZOwhvjCAF7%2BWGTeI8daeH2g6tf2DDz7ZxqK9%2FkuBc2idFwxvtYFoZ9L%2F9MSg1GyXfSyoRYSQOEzmCWJDB2kBUrc6ZxuVO7%2FnUDIDrDl6FBpA%3D%3D
+

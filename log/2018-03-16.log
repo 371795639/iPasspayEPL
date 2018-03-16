@@ -1,0 +1,18 @@
+[2018-03-16 09:19:14][info] ====进入支付====
+
+[2018-03-16 09:19:14][info] 测试商品
+
+[2018-03-16 09:19:14][info] 2018031617848
+
+[2018-03-16 09:19:14][info] suLK1MnMxrc=
+
+[2018-03-16 09:19:14][info] suLK1MnMxrc=
+
+[2018-03-16 09:19:14][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://www.ipasspay.xyz/iPasspayEPL/response/notify_pay_response.php&out_trade_no=2018031617848&partner=130&return_url=http://www.ipasspay.xyz/iPasspayEPL/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-16 09:19:14][info] 生成签名字符串：YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ+Tv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b+J3pYN9T3FSKCL8uuy4gpUzqcF4Yqe/xgdomQikVmm2qACYOqC++fOrJP7EAWuz0DCVG8dlUaD4Q4BJIe+l4QM4n3+70ENN+nhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw==
+
+[2018-03-16 09:19:14][info] 签名字符串为：YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ+Tv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b+J3pYN9T3FSKCL8uuy4gpUzqcF4Yqe/xgdomQikVmm2qACYOqC++fOrJP7EAWuz0DCVG8dlUaD4Q4BJIe+l4QM4n3+70ENN+nhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw==
+
+[2018-03-16 09:19:14][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031617848&partner=130&return_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ%2BTv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b%2BJ3pYN9T3FSKCL8uuy4gpUzqcF4Yqe%2FxgdomQikVmm2qACYOqC%2B%2BfOrJP7EAWuz0DCVG8dlUaD4Q4BJIe%2Bl4QM4n3%2B70ENN%2BnhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw%3D%3D
+
