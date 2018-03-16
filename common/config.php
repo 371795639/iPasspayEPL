@@ -16,13 +16,15 @@ class SysConfig{
 	//加密类型
 	const SIGN_TYPE = "SHA256withRSA";
 	//密钥地址
-	const PFX_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/yzt.pfx";
-	//keystore密码
+	//const PFX_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/yzt.pfx";
+    const PFX_PATH = "/home/janhao3/ipasspay.xyz/ipasspayEPL/certs/yzt.pfx";
+    //keystore密码
 	const KEYSTORE_PASSWORD="yzt20160728";
 	//私钥密码
 	const PRIVATEKEY_PASSWORD="yzt20160728";
 	//公钥地址
-	const CER_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/epaylinks_pfx.cer";
+	//const CER_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/epaylinks_pfx.cer";
+    const CER_PATH = "/home/janhao3/ipasspay.xyz/ipasspayEPL/certs/epaylinks_pfx.cer";
 	
 	
 	const CURL_PROXY_HOST = "0.0.0.0";//"10.152.18.220";
