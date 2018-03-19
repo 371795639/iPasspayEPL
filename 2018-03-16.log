@@ -1,0 +1,100 @@
+[2018-03-16 09:19:14][info] ====进入支付====
+
+[2018-03-16 09:19:14][info] 测试商品
+
+[2018-03-16 09:19:14][info] 2018031617848
+
+[2018-03-16 09:19:14][info] suLK1MnMxrc=
+
+[2018-03-16 09:19:14][info] suLK1MnMxrc=
+
+[2018-03-16 09:19:14][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://www.ipasspay.xyz/iPasspayEPL/response/notify_pay_response.php&out_trade_no=2018031617848&partner=130&return_url=http://www.ipasspay.xyz/iPasspayEPL/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-16 09:19:14][info] 生成签名字符串：YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ+Tv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b+J3pYN9T3FSKCL8uuy4gpUzqcF4Yqe/xgdomQikVmm2qACYOqC++fOrJP7EAWuz0DCVG8dlUaD4Q4BJIe+l4QM4n3+70ENN+nhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw==
+
+[2018-03-16 09:19:14][info] 签名字符串为：YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ+Tv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b+J3pYN9T3FSKCL8uuy4gpUzqcF4Yqe/xgdomQikVmm2qACYOqC++fOrJP7EAWuz0DCVG8dlUaD4Q4BJIe+l4QM4n3+70ENN+nhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw==
+
+[2018-03-16 09:19:14][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031617848&partner=130&return_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=YsukMMwwbBy1HGEzyhobgXkl0OSBNfpb9X6Km0HqIZjdKGB8apYkaXtPKhz3D9LOJs16PlSeMhzo0EiOWF8TUPE052HnD1N9PNLzVOZeiqQwP8ZXK7TUdJpgFx8SKBsHFdKP9Up6CnnUTXZ%2BTv0vbHgsgpPshvYtlATOk8bJnFUpWlsmW0b%2BJ3pYN9T3FSKCL8uuy4gpUzqcF4Yqe%2FxgdomQikVmm2qACYOqC%2B%2BfOrJP7EAWuz0DCVG8dlUaD4Q4BJIe%2Bl4QM4n3%2B70ENN%2BnhxUDKCUp4JG4VdQ6JIdrnUxNxZOtXhf3QSpK3rBR60RJh570z7sJupfjEOjfhJM6Cw%3D%3D
+
+[2018-03-16 10:05:26][info] ====进入支付====
+
+[2018-03-16 10:05:26][info] 测试商品
+
+[2018-03-16 10:05:26][info] 2018031664980
+
+[2018-03-16 10:05:26][info] suLK1MnMxrc=
+
+[2018-03-16 10:05:26][info] suLK1MnMxrc=
+
+[2018-03-16 10:05:26][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://www.ipasspay.xyz/iPasspayEPL/response/notify_pay_response.php&out_trade_no=2018031664980&partner=130&return_url=http://www.ipasspay.xyz/iPasspayEPL/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-16 10:05:26][info] 生成签名字符串：GmFVy0bIovAnDYSIMjpJYz8GnPjGcUO1zlwHQQ7/nyYds+xBpMx/uTE9cHJ4zNvZ02DZhkoE/EzlVEb9EawXT1euUkPfkKrYNA1CESdnqu83esY5LT5D4TCPC459Fr3fr1JgYkTYdzUENR2A2nFOQSdcjuu3mxuFuSZjb4zMQs8EqtNcy4yfj0fFeeXMmM98zEtUNa7qQORoOiFBjcOgtBJSoCOl6r1Aw4vxYXAFiGy9tzx8ziS7I8XIQAfLNgQad7gxXaAUlUZ0bXqfZneO/jWZHRuTE/9kxcF7AS/1mMenii/fDWDErfF+1GhAIZr2lhZ4FyJreyp+7kvBTnC4sA==
+
+[2018-03-16 10:05:26][info] 签名字符串为：GmFVy0bIovAnDYSIMjpJYz8GnPjGcUO1zlwHQQ7/nyYds+xBpMx/uTE9cHJ4zNvZ02DZhkoE/EzlVEb9EawXT1euUkPfkKrYNA1CESdnqu83esY5LT5D4TCPC459Fr3fr1JgYkTYdzUENR2A2nFOQSdcjuu3mxuFuSZjb4zMQs8EqtNcy4yfj0fFeeXMmM98zEtUNa7qQORoOiFBjcOgtBJSoCOl6r1Aw4vxYXAFiGy9tzx8ziS7I8XIQAfLNgQad7gxXaAUlUZ0bXqfZneO/jWZHRuTE/9kxcF7AS/1mMenii/fDWDErfF+1GhAIZr2lhZ4FyJreyp+7kvBTnC4sA==
+
+[2018-03-16 10:05:26][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031664980&partner=130&return_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=GmFVy0bIovAnDYSIMjpJYz8GnPjGcUO1zlwHQQ7%2FnyYds%2BxBpMx%2FuTE9cHJ4zNvZ02DZhkoE%2FEzlVEb9EawXT1euUkPfkKrYNA1CESdnqu83esY5LT5D4TCPC459Fr3fr1JgYkTYdzUENR2A2nFOQSdcjuu3mxuFuSZjb4zMQs8EqtNcy4yfj0fFeeXMmM98zEtUNa7qQORoOiFBjcOgtBJSoCOl6r1Aw4vxYXAFiGy9tzx8ziS7I8XIQAfLNgQad7gxXaAUlUZ0bXqfZneO%2FjWZHRuTE%2F9kxcF7AS%2F1mMenii%2FfDWDErfF%2B1GhAIZr2lhZ4FyJreyp%2B7kvBTnC4sA%3D%3D
+
+[2018-03-16 10:20:16][info] ====进入支付====
+
+[2018-03-16 10:20:16][info] 测试商品
+
+[2018-03-16 10:20:16][info] 2018031652728
+
+[2018-03-16 10:20:16][info] suLK1MnMxrc=
+
+[2018-03-16 10:20:16][info] suLK1MnMxrc=
+
+[2018-03-16 10:20:16][info] 字符串：base64_memo=suLK1MnMxrc=&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng==&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http://www.ipasspay.xyz/iPasspayEPL/response/notify_pay_response.php&out_trade_no=2018031652728&partner=130&return_url=http://www.ipasspay.xyz/iPasspayEPL/response/pay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0
+
+[2018-03-16 10:20:16][info] 生成签名字符串：H6+lT+/Xs5Z7wpP41pXhcLKPTAe3DnqeTm5C8ocr+eBSJF94tkFBfiVif+ZGGZh4r/bEMxbscU6V4rUasz4TjQUA+D+slxzyPggXAS6c/ppa67Wh/OUQLkWtMC7j9cabLIsXQB3z4YPc4wnXoJKO6MVA5d63M2IiMKawjB6++ynfxYR+Bzz+bm6V+20ZGxrjdhAhVmcOvRP+XrjJ31wFjS7m07CKYub/SBl5ZJJzav7cp4u1Oyz9dJR/6Zr8oDcLx7B0OwSzhUaRG77uixsSlaTvzBFqTc6ibHTtsUb5CAK69q/9RRmaM7jkOfJuq9LzO6Eg9aCVFHhErMp7/yGx6g==
+
+[2018-03-16 10:20:16][info] 签名字符串为：H6+lT+/Xs5Z7wpP41pXhcLKPTAe3DnqeTm5C8ocr+eBSJF94tkFBfiVif+ZGGZh4r/bEMxbscU6V4rUasz4TjQUA+D+slxzyPggXAS6c/ppa67Wh/OUQLkWtMC7j9cabLIsXQB3z4YPc4wnXoJKO6MVA5d63M2IiMKawjB6++ynfxYR+Bzz+bm6V+20ZGxrjdhAhVmcOvRP+XrjJ31wFjS7m07CKYub/SBl5ZJJzav7cp4u1Oyz9dJR/6Zr8oDcLx7B0OwSzhUaRG77uixsSlaTvzBFqTc6ibHTtsUb5CAK69q/9RRmaM7jkOfJuq9LzO6Eg9aCVFHhErMp7/yGx6g==
+
+[2018-03-16 10:20:16][info] 支付网关请求字符串为：http://14.23.90.101:180/paycenter/v2.0/getoi.do?base64_memo=suLK1MnMxrc%3D&base64_user_info=YmFua19hY2NvdW50PTYyMjMyMzY1MDAwMjU0NDUmYmFua19hY2NfdHlwZT0wMCZ1c2VyX2lkPTM2MDkwJnVzZXJfbmFtZT3mtYvor5UmdXNlcl9jZXJ0X3R5cGU9MDAmdXNlcl9jZXJ0X25vPTQxMzAyOTE5NzIxMDI4NDIyOSZ1c2VyX21vYmlsZT0xNTA4OTY1NDI1Ng%3D%3D&certId=335902764374016746163578510918738695929360058949&currency_type=RMB&freight=0.01&freight_curr=RMB&goods_amount=0.01&goods_amount_curr=RMB&notify_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fnotify_pay_response.php&out_trade_no=2018031652728&partner=130&return_url=http%3A%2F%2Fwww.ipasspay.xyz%2FiPasspayEPL%2Fresponse%2Fpay_response.php&sign_type=SHA256withRSA&submission_type=01&tax_amount=0.01&tax_amount_curr=RMB&total_fee=0.05&version=4.0&sign=H6%2BlT%2B%2FXs5Z7wpP41pXhcLKPTAe3DnqeTm5C8ocr%2BeBSJF94tkFBfiVif%2BZGGZh4r%2FbEMxbscU6V4rUasz4TjQUA%2BD%2BslxzyPggXAS6c%2Fppa67Wh%2FOUQLkWtMC7j9cabLIsXQB3z4YPc4wnXoJKO6MVA5d63M2IiMKawjB6%2B%2BynfxYR%2BBzz%2Bbm6V%2B20ZGxrjdhAhVmcOvRP%2BXrjJ31wFjS7m07CKYub%2FSBl5ZJJzav7cp4u1Oyz9dJR%2F6Zr8oDcLx7B0OwSzhUaRG77uixsSlaTvzBFqTc6ibHTtsUb5CAK69q%2F9RRmaM7jkOfJuq9LzO6Eg9aCVFHhErMp7%2FyGx6g%3D%3D
+
+[2018-03-16 10:20:45][info] ======同步消息返回=======
+
+[2018-03-16 10:20:45][info] 接受到签名：tJJjw+3J4LKJa9CBygbRN6NtAq8whTePKrHCpDuqjerfC+quWs4A373uILvryeR4fBL4qF/oaLDg/K+CO+8HF5onstLFNDOXvOV3WZjxFEJbo6O7wXZZshCtzAQ/Ia81agRD8PnVoLsyIwROZiHPL4IFWR7ivYBnh4WwWsygl5ONyA1GFRqdUHJ9O2zXe/WBBjfvpuVL03gDfmIMFwbb23zx87S5cgoBV8qPFaOqFRE26LDZsDh44jfPAmoIBA+hzmhyO90LJ0sR/tdBCgfnMP7k/LfTWFK7buyUG7eX953ZOxDgYoS299OxLmOpmBVxCrL5DmlvRYG/jGDHjIYIWA==
+
+[2018-03-16 10:20:45][info] 待验签字符串：amount=0.05&base64_memo=suLK1MnMxrc=&channel_id=5&dec_fee=0.0&dec_fee_rate=0.0&out_trade_no=2018031652728&partner=130&pay_no=990813&pay_result=1&sign_type=SHA256withRSA
+
+[2018-03-16 10:20:45][info] 验签通过
+
+[2018-03-16 10:20:45][info] 签名验证成功
+
+[2018-03-16 10:20:45][info] 返回处理结果为：支付成功
+
+[2018-03-16 10:20:55][info] ======异步消息返回=======
+
+[2018-03-16 10:20:55][info] 接受到签名：tJJjw+3J4LKJa9CBygbRN6NtAq8whTePKrHCpDuqjerfC+quWs4A373uILvryeR4fBL4qF/oaLDg/K+CO+8HF5onstLFNDOXvOV3WZjxFEJbo6O7wXZZshCtzAQ/Ia81agRD8PnVoLsyIwROZiHPL4IFWR7ivYBnh4WwWsygl5ONyA1GFRqdUHJ9O2zXe/WBBjfvpuVL03gDfmIMFwbb23zx87S5cgoBV8qPFaOqFRE26LDZsDh44jfPAmoIBA+hzmhyO90LJ0sR/tdBCgfnMP7k/LfTWFK7buyUG7eX953ZOxDgYoS299OxLmOpmBVxCrL5DmlvRYG/jGDHjIYIWA==
+
+[2018-03-16 10:20:55][info] 待验签字符串：amount=0.05&base64_memo=suLK1MnMxrc=&channel_id=5&dec_fee=0.0&dec_fee_rate=0.0&out_trade_no=2018031652728&partner=130&pay_no=990813&pay_result=1&sign_type=SHA256withRSA
+
+[2018-03-16 10:20:55][info] 验签通过
+
+[2018-03-16 10:20:55][info] 签名验证成功
+
+[2018-03-16 10:20:55][info] amount:0.05
+
+[2018-03-16 10:20:55][info] base64_memo:suLK1MnMxrc=
+
+[2018-03-16 10:20:55][info] out_trade_no:2018031652728
+
+[2018-03-16 10:20:55][info] partner:130
+
+[2018-03-16 10:20:55][info] pay_no:990813
+
+[2018-03-16 10:20:55][info] pay_result:1
+
+[2018-03-16 10:20:55][info] pay_time:
+
+[2018-03-16 10:20:55][info] sett_date:
+
+[2018-03-16 10:20:55][info] sett_time:
+
+[2018-03-16 10:20:55][info] sign:tJJjw+3J4LKJa9CBygbRN6NtAq8whTePKrHCpDuqjerfC+quWs4A373uILvryeR4fBL4qF/oaLDg/K+CO+8HF5onstLFNDOXvOV3WZjxFEJbo6O7wXZZshCtzAQ/Ia81agRD8PnVoLsyIwROZiHPL4IFWR7ivYBnh4WwWsygl5ONyA1GFRqdUHJ9O2zXe/WBBjfvpuVL03gDfmIMFwbb23zx87S5cgoBV8qPFaOqFRE26LDZsDh44jfPAmoIBA+hzmhyO90LJ0sR/tdBCgfnMP7k/LfTWFK7buyUG7eX953ZOxDgYoS299OxLmOpmBVxCrL5DmlvRYG/jGDHjIYIWA==
+
+[2018-03-16 10:20:55][info] sign_type:SHA256withRSA
+
+[2018-03-16 10:20:55][info] 返回处理结果为：支付成功
+
