@@ -2,13 +2,13 @@
 
 class SysConfig{
 	//商户号
-	const PARTNER = '130';//EC180226YL001
+	const PARTNER = 'EC180226YL001';//EC180226YL001
 	//商户密钥
 	const KEY = '857e6g8y51b5k365f7v954s50u24h14w';
 	//支付请求网关访问地址
-	const PAY_URL = 'http://14.23.90.101:180/paycenter/v2.0/getoi.do';//https://www.epaylinks.cn/paycenter/v2.0/getoi.do
+	const PAY_URL = 'https://www.epaylinks.cn/paycenter/v2.0/getoi.do';//https://www.epaylinks.cn/paycenter/v2.0/getoi.do
 	//订单请求类网关访问地址
-	const ORDER_URL = 'https://14.23.90.100:443/paycenter/gateways.do';//https://www.epaylinks.cn/paycenter/gateways.do
+	const ORDER_URL = 'https://www.epaylinks.cn/paycenter/gateways.do';//https://www.epaylinks.cn/paycenter/gateways.do
 	//本地字符编码
 	const ENCODING = 'UTF-8';
 	//版本号
@@ -19,9 +19,9 @@ class SysConfig{
 	//const PFX_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/yzt.pfx";
     const PFX_PATH = "/home/janhao3/ipasspay.xyz/iPasspayEPL/certs/yzt.pfx";
     //keystore密码
-	const KEYSTORE_PASSWORD="yzt20160728";// afonso123
+	const KEYSTORE_PASSWORD="afonso123";// afonso123
 	//私钥密码
-	const PRIVATEKEY_PASSWORD="yzt20160728";// afonso123
+	const PRIVATEKEY_PASSWORD="afonso123";// afonso123
 	//公钥地址
 	//const CER_PATH = "/Applications/MAMP/htdocs/coding/iPasspayEPL/certs/epaylinks_pfx.cer";
     const CER_PATH = "/home/janhao3/ipasspay.xyz/iPasspayEPL/certs/epaylinks_pfx.cer";
