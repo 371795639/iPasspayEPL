@@ -27,8 +27,8 @@ $input = new PayRequest();
 $input->setOutTradeNo($outTradeNo);
 $input->setTotalFee($totalFee);
 $input->setCurrencyType($currencyType);
-$input->setReturnUrl("http://www.ipasspay.xyz/iPasspayEPL/response/pay_response.php");
-$input->setNotifyUrl("http://www.ipasspay.xyz/iPasspayEPL/response/notify_pay_response.php");
+$input->setReturnUrl(SysConfig::RETURN_URL);
+$input->setNotifyUrl(SysConfig::NOTIFY_URL);
 //中文base64编码
 $input->setBase64Memo(base64_encode($remark));
 Log::INFO($input->getBase64Memo()."\r\n");
